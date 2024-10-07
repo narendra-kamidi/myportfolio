@@ -1,14 +1,15 @@
 var typed=new Typed('#element',{
     strings: ['Web Developer','Devops Engineer','Software Tester'],
     typeSpeed:100,
-    backSpeed:50,
-    backDelay:1,
+    backSpeed:10,
+    backDelay:1000,
     loop:true,
     
 });
 
 function changeTextColor(){
     const textElement=document.getElementById("randomtext");
+    
     const randomColor=getRandomColor();
     textElement.style.color=randomColor;
 }
@@ -20,4 +21,14 @@ function getRandomColor(){
     }
     return color;
 }
-window.onload=changeTextColor;
+
+function changenameColor(){
+    const textElement=document.getElementById("myname");
+    
+    const randomColor=getRandomColor();
+    textElement.style.color=randomColor;
+}
+
+window.onmousemove=changeTextColor;
+window.onload=changenameColor;
+
