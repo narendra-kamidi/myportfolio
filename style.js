@@ -1,5 +1,5 @@
 var typed=new Typed('#element',{
-    strings: ['Web Developer','Devops Engineer','Software Tester'],
+    strings: ['Web Developer','Cloud Engineer','Content Creator','Data Engineer','Advanced Typist','Data Operator'],
     typeSpeed:100,
     backSpeed:10,
     backDelay:1000,
